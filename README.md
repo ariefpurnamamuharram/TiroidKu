@@ -3,5 +3,6 @@ TiroidKu merupakan aplikasi edukasi berbasis Android yang ditujukan untuk kepent
 
 ## Kontak Pengembang
 **Arief Purnama Muharram** 
+ _Fakultas Kedokteran Universitas Indonesia_
 - _Email: ariefpurnamamuharram@gmail.com | arief.purnama51@ui.ac.id_
 - _LinkedIn: http://linkedin.com/in/ariefpurnamamuharrm_

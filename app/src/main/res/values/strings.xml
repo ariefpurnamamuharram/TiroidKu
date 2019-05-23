@@ -1,0 +1,56 @@
+<resources>
+    <string name="app_name">TiroidKu</string>
+
+    <string name="thyroid_gland">Kelenjar Tiroid</string>
+    <string name="thyroid_gland_description">
+        Kelenjar Tiroid merupakan kelenjar berbentuk menyerupai kupu-kupu yang terletak di bagian dasar leher. Kelenjar
+        tiroid menghasilkan hormon yang mampu mengontrol metabolisme tubuh. Hormon tiroid berperan penting dalam
+        regulasi fungsi vital tubuh, seperti:\n
+        - Bernapas\n
+        - Detak Jantung\n
+        - Sistem saraf pusat dan perifer\n
+        - Berat Badan\n
+        - Kekuatan otot\n
+        - Siklus menstruasi\n
+        - Suhu tubuh\n
+        - Kadar kolesterol,\n
+        - dan lainnya…\n\n
+        Kelenjar tiroid berukuran sekitar 2 inci dan terletak di depan tenggorokan dan di bawah jakun. Tiroid memiliki 2
+        lobus dan terhubung oleh sebuah jaringan yang disebut dengan isthmus.
+    </string>
+
+    <string name="hyperthyroidism">Hipertiroidisme</string>
+    <string name="hyperthyroidism_description">
+        Hipertiroidisme merupakan kondisi yang terjadi ketika kelenjar tiroid memproduksi terlalu banyak hormon
+        tiroksin. Hipertiroidisme dapat menyebabkan akselerasi metabolisme tubuh, menyebabkan penurunan berat badan yang
+        drastis dan detak jantung yang cepat dan tidak beraturan.\n\n
+        Beberapa tanda dan gejala hipertoridisme meliputi,\n
+        - Penurunan berat badan yang drastis, walaupun pola dan intensitas makan tetap sama atau bahkan lebih tinggi\n
+        - Detak jantung yang cepat (takikardia), umumnya lebih darii 100 kali per menit\n
+        - Irama jantung tidak beraturan (aritmia)\n
+        - Gemetar\n
+        - Mudah lelah, lemah, dan lesu\n
+        - Sulit tidur\n
+        - dan lainnya…
+    </string>
+
+    <string name="hypothyroidism">Hipotiroidisme</string>
+    <string name="hypothyroidism_description">
+        Hipotiroidisme merupakan kondisi yang terjadi ketika kelenjar tiroid tidak memproduksi cukup hormon tiroksin,
+        kebalikan dari hipertiroidisme. Pada tahap awal, hipotiroidisme tidak menimbulkan gejala pada tubuh. Seiiring
+        dengan berjalanannya waktu, hipotiroidisme dapat menimbulkan berbagai masalah seperti obesitas, nyeri sendi,
+        infertilitas, dan masalah jantung.\n\n
+        Beberapa tanda dan gejala hipotiroidisme meliputi,\n
+        - Lesu\n
+        - Peningkatan sensitivitas terhadap suhu dingin\n
+        - Konstipasi\n
+        - Kulit kering\n
+        - Berat badan meningkat\n
+        - Wajah membulat\n
+        - Otot lemas\n
+        - Detak jantung melambat\n
+        - Depresi\n
+        - Gangguan memori ingatan\n
+        - dan lainnya…
+    </string>
+</resources>

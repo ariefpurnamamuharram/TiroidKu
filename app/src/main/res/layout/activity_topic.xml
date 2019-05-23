@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            xmlns:tools="http://schemas.android.com/tools"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="18dp"
+            android:scrollbars="none">
+
+    <android.support.constraint.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+        <TextView android:id="@+id/topic_title"
+                  android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:textColor="@color/colorPrimary"
+                  android:textSize="24sp"
+                  android:textStyle="bold"
+                  android:text="@string/thyroid_gland"
+                  app:layout_constraintTop_toTopOf="parent"/>
+
+        <ImageView android:id="@+id/topic_img"
+                   android:layout_width="match_parent"
+                   android:layout_height="240dp"
+                   android:layout_marginTop="18dp"
+                   android:src="@drawable/img_thyroid"
+                   app:layout_constraintTop_toBottomOf="@id/topic_title"
+                   tools:ignore="ContentDescription"/>
+
+        <TextView android:id="@+id/topic_body"
+                  android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:layout_marginTop="24dp"
+                  android:lineSpacingExtra="5dp"
+                  android:textSize="16sp"
+                  android:text="@string/thyroid_gland_description"
+                  app:layout_constraintTop_toBottomOf="@id/topic_img"/>
+
+    </android.support.constraint.ConstraintLayout>
+
+</ScrollView>

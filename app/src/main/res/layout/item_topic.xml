@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+                                    xmlns:tools="http://schemas.android.com/tools"
+                                    xmlns:app="http://schemas.android.com/apk/res-auto"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="180dp"
+                                    android:layout_margin="9dp"
+                                    android:elevation="3dp">
+
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="9dp"
+            android:orientation="horizontal">
+
+        <ImageView android:id="@+id/item_img"
+                   android:layout_width="120dp"
+                   android:layout_height="120dp"
+                   android:layout_gravity="top"
+                   android:src="@drawable/img_thyroid"
+                   tools:ignore="ContentDescription"/>
+
+        <android.support.constraint.ConstraintLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:layout_marginStart="13dp">
+
+            <TextView android:id="@+id/item_title"
+                      android:layout_width="match_parent"
+                      android:layout_height="wrap_content"
+                      android:maxLines="1"
+                      android:textColor="@color/colorPrimary"
+                      android:textSize="16sp"
+                      android:textStyle="bold"
+                      android:text="Kelenjar Tiroid"
+                      app:layout_constraintTop_toTopOf="parent"
+                      tools:ignore="HardcodedText"/>
+
+            <TextView android:id="@+id/item_body"
+                      android:layout_width="match_parent"
+                      android:layout_height="wrap_content"
+                      android:layout_marginTop="6dp"
+                      android:maxLines="3"
+                      android:ellipsize="end"
+                      android:textSize="14sp"
+                      android:text="Kelenjar Tiroid"
+                      app:layout_constraintTop_toBottomOf="@id/item_title"
+                      tools:ignore="HardcodedText"/>
+
+            <Button android:id="@+id/item_btn_details"
+                    android:layout_width="wrap_content"
+                    android:layout_height="32dp"
+                    android:background="@color/colorPrimary"
+                    android:textColor="@android:color/white"
+                    android:textStyle="normal"
+                    android:text="Detail"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    tools:ignore="HardcodedText"/>
+
+        </android.support.constraint.ConstraintLayout>
+
+    </LinearLayout>
+
+</android.support.v7.widget.CardView>
